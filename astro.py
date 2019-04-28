@@ -527,8 +527,18 @@ def pictures(idImg):
         b,b,b,b,b,b,b,b,
         ]
 
-        # routes to display diffrent images
+        reset_array=[
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        o,o,o,o,o,o,o,o,
+        ]
 
+        # routes to display diffrent images
         if idImg == 'welcome':
             sh.show_message('Welcome to PAPi', text_colour = w, scroll_speed=0.05)
             #This is a quote from one of a 'Country balls comics' 
@@ -573,9 +583,12 @@ def pictures(idImg):
                 sh.set_rotation(rot)
                 time.sleep(0.2)
 
+        if idImg == 'reset':
+            sh.set_pixels(reset_array)
+
         # if given parameter was not equal to wait and or error show us a greeen image until next function call
         # green image means that everything is okay
-        if (idImg != 'wait' and idImg != 'end' and idImg != 'error'):
+        if (idImg != 'wait' and idImg != 'end' and idImg != 'error' and idImg != 'reset'):
             sh.set_pixels(working_array)
 
     # Handle the exception
@@ -783,6 +796,7 @@ while(timer1.now()<timer1.endTime):
 
 
 try:
+    pictures('end')
     # calculate and round average measurements
     averageTemp/=rounds
     averageHum/=rounds
@@ -803,7 +817,10 @@ try:
     logger.debug('code succesfully exited after: %s,expected time: %smin, time of end is: %s, problems: %s',timer1.minsOfRun(),programTime,timer1.now(),anyException)
     logger.debug('program ended with %s rounds of collecting data',rounds)
     # say goodbye
-    pictures('end')
+    time.sleep(3)
+    pictures('reset')
+
+
 # exit on that Exception
 except Exception as e_sumUp_exception:
     print('CANNOT SUMUP DATA, EXITING')
