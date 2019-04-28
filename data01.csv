@@ -1,0 +1,28 @@
+_DEBUG_,line: 692, starting program,time is: 2019-02-06 17:20:55.914322, program will be running for: 5min
+_INFO_,line: 694, EPHEM: ISS is in Southern hemisphere
+_DEBUG_,line: 738, Start round: 1,Time from start: 0:00:16
+_INFO_,line: 759, Time is: 17:21:40,Time from start: 0:00:44,Temp: 29.29,Hum: 31.32,Press: 989.79
+_DEBUG_,line: 738, Start round: 2,Time from start: 0:00:44
+_INFO_,line: 759, Time is: 17:22:08,Time from start: 0:01:12,Temp: 29.42,Hum: 31.12,Press: 989.79
+_DEBUG_,line: 738, Start round: 3,Time from start: 0:01:12
+_INFO_,line: 759, Time is: 17:22:36,Time from start: 0:01:40,Temp: 29.49,Hum: 30.96,Press: 989.8
+_DEBUG_,line: 738, Start round: 4,Time from start: 0:01:40
+_INFO_,line: 759, Time is: 17:23:04,Time from start: 0:02:08,Temp: 29.42,Hum: 30.54,Press: 989.78
+_DEBUG_,line: 738, Start round: 5,Time from start: 0:02:08
+_INFO_,line: 759, Time is: 17:23:33,Time from start: 0:02:37,Temp: 29.44,Hum: 30.56,Press: 989.79
+_DEBUG_,line: 738, Start round: 6,Time from start: 0:02:37
+_INFO_,line: 759, Time is: 17:24:01,Time from start: 0:03:05,Temp: 29.53,Hum: 30.64,Press: 989.79
+_DEBUG_,line: 738, Start round: 7,Time from start: 0:03:05
+_INFO_,line: 759, Time is: 17:24:29,Time from start: 0:03:33,Temp: 29.44,Hum: 30.51,Press: 989.76
+_DEBUG_,line: 738, Start round: 8,Time from start: 0:03:33
+_INFO_,line: 759, Time is: 17:24:57,Time from start: 0:04:01,Temp: 29.58,Hum: 30.47,Press: 989.75
+_DEBUG_,line: 738, Start round: 9,Time from start: 0:04:01
+_INFO_,line: 759, Time is: 17:25:25,Time from start: 0:04:29,Temp: 29.75,Hum: 30.19,Press: 989.75
+_DEBUG_,line: 738, Start round: 10,Time from start: 0:04:29
+_INFO_,line: 759, Time is: 17:25:54,Time from start: 0:04:58,Temp: 29.82,Hum: 30.23,Press: 989.76
+_DEBUG_,line: 738, Start round: 11,Time from start: 0:04:58
+_INFO_,line: 759, Time is: 17:26:22,Time from start: 0:05:26,Temp: 29.9,Hum: 30.13,Press: 989.78
+_INFO_,line: 815, average Temp: 29.55,average hum: 30.61,average press: 989.78
+_INFO_,line: 816, Temp: highest: 29.9 lowest: 29.29 ,Hum: highest: 31.32 lowest: 30.13 ,Press: highest: 989.8 lowest: 989.75
+_DEBUG_,line: 817, code succesfully exited after: 0:05:26,expected time: 5min, time of end is: 2019-02-06 17:26:22.388335, problems: False
+_DEBUG_,line: 818, program ended with 11 rounds of collecting data
